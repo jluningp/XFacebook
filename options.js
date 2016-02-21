@@ -40,7 +40,7 @@ function restore_options() {
 	document.getElementById('blacklist').innerHTML = "";
 	for(var i = 0; i < blackarray.length; i++)
 	{
-		document.getElementById('blacklist').innerHTML += "<label class='bl' id='bl" + i + "'>" + blackarray[i] + "<br>";
+		document.getElementById('blacklist').innerHTML += "<label class='bl' id='bl" + i + "'>&nbsp; - " + blackarray[i] + "<br>";
 	}
   });
 }
@@ -60,5 +60,11 @@ function empty() {
 document.addEventListener('DOMContentLoaded', restore_options);
 document.getElementById('save').addEventListener('click',
     save_options);
+	
+$("#black").keyup(function(event){
+    if(event.keyCode == 13){
+		save_options();
+	}
+});
 	
 document.getElementById("clear").addEventListener('click', empty);

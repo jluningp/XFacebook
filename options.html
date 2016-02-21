@@ -3,27 +3,35 @@
 <head>
 <title>XFacebook</title>
 <style>
+h2 {
+background-color: #4e69a2;
+padding: .5em;
+color: white;
+}
+
 body {
 	width: 250px;
 }
 
 #clear {
-	font-size: .8em;
 	cursor: pointer;
 	text-decoration: underline;
 	color: blue;
+}
+
+#black {
+	margin-top: .5em;
 }
 </style>
 </head>
 <body>
 <h2 align=center>Welcome to XFacebook!</h2>
-Options:<br>
+<b>Options:</b><br>
 <label><input type="checkbox" id="stalk">Safe Stalk Mode</label><br>
 <label><input type="checkbox" id="liked">Hide Likes</label><br>
 <br>
-Blacklist: (<a id="clear">Clear Blacklist</a>)<br>
+<b>Blacklist:</b> (<a id="clear">Clear Blacklist</a>)<br>
 <label id="blacklist"></label>
-<br>
 <input type="text" id="black"><br>
 <br>
 <div id="status"></div>
