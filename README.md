@@ -1,9 +1,9 @@
 # XFacebook
 XFacebook Browser Extension
 # Features
-XFacebook has three features:
-1. Blacklist (hide posts with particular words in them)
-2. Hide Likes (hides all of those pesky posts that show up on your timeline saying "Random Friend liked this")
+XFacebook has three features: </br>
+1. Blacklist (hide posts with particular words in them) </br>
+2. Hide Likes (hides all of those pesky posts that show up on your timeline saying "Random Friend liked this") </br>
 3. Safe Stalking (removes the like, comment, and share buttons when you are on someone's timeline so you won't accidentally like their year-old posts)
 # How to Install
 1. Download XFacebook
