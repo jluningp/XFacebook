@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>XFacebook</title>
+<style>
+body {
+	width: 250px;
+}
+
+#clear {
+	font-size: .8em;
+	cursor: pointer;
+	text-decoration: underline;
+	color: blue;
+}
+</style>
+</head>
+<body>
+<h2 align=center>Welcome to XFacebook!</h2>
+Options:<br>
+<label><input type="checkbox" id="stalk">Safe Stalk Mode</label><br>
+<label><input type="checkbox" id="liked">Hide Likes</label><br>
+<br>
+Blacklist: (<a id="clear">Clear Blacklist</a>)<br>
+<label id="blacklist"></label>
+<br>
+<input type="text" id="black"><br>
+<br>
+<div id="status"></div>
+<div style="text-align: center"><button id="save">Save</button></div>
+
+<script src="jquery-1.12.0.min.js"></script>
+<script src="options.js"></script>
+</body>
+</html>
