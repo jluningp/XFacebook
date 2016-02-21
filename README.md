@@ -1,8 +1,5 @@
 # XFacebook
 XFacebook Browser Extension
-# XFacebook
-1. XFacebook will show up as a small icon in the top right corner of the screen. Click it, select your settings, and enter a blacklist.
-2. Go to Facebook! XFacebook will take care of the rest. Enjoy your experience.
 # Features
 XFacebook has three features: </br>
 1. Blacklist (hide posts with particular words in them) </br>
@@ -14,4 +11,7 @@ XFacebook has three features: </br>
 3. Check the "developer mode" box
 4. Click "Load Unpacked Extension"
 5. Find where you downloaded the file and select
-6. Voila! You have the extension
+6. Voila! You have the extension</br>
+# How to Use
+1. XFacebook will show up as a small icon in the top right corner of the screen. Click it, select your settings, and enter a blacklist.
+2. Go to Facebook! XFacebook will take care of the rest. Enjoy your experience.
